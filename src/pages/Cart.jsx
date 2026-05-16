@@ -55,7 +55,7 @@ const Cart = () => {
                 className="flex gap-5 rounded-[30px] border border-zinc-200 p-5"
               >
                 <img
-                  src={`http://localhost:5000${item.image}`}
+                  src={`https://jsl-lights-backend.onrender.com${item.image}`}
                   alt={item.title}
                   className="h-40 w-40 rounded-2xl object-cover"
                 />

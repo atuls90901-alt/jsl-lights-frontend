@@ -62,7 +62,7 @@ const ProductDetails = () => {
       <div className="mx-auto grid max-w-[1600px] gap-16 px-8 lg:grid-cols-2">
         <div className="overflow-hidden rounded-[40px] bg-[#f5f5f5]">
           <img
-            src={`http://localhost:5000${product.image}`}
+            src={`https://jsl-lights-backend.onrender.com${product.image}`}
             alt={product.title}
             className="h-[700px] w-full object-cover"
           />

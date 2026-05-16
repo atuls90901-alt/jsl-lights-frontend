@@ -79,7 +79,7 @@ const Products = () => {
               >
                 <td className="px-6 py-5">
                   <img
-                    src={`http://localhost:5000${product.image}`}
+                    src={`https://jsl-lights-backend.onrender.com${product.image}`}
                     alt={product.title}
                     className="h-20 w-20 rounded-xl object-cover"
                   />

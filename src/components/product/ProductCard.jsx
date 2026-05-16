@@ -10,7 +10,7 @@ const ProductCard = ({
     >
       <div className="overflow-hidden rounded-[30px] bg-[#f5f5f5]">
         <img
-          src={`http://localhost:5000${product.image}`}
+          src={`https://jsl-lights-backend.onrender.com${product.image}`}
           alt={product.title}
           loading="lazy"
           className="h-[360px] w-full object-cover transition duration-500 group-hover:scale-105"
